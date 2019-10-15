@@ -1,6 +1,6 @@
 library(lme4)
 
-data<-read.csv("C:\\Users\\HECTOR\\Documents\\Learning_data\\Software_learning\\R_work\\tuihua\\C80chelun1.csv", header=T)
+data<-read.csv("C80chelun1.csv", header=T)
 
 Wheel<-as.numeric(as.character(data$Series))*as.numeric(as.character(data$Car))*as.numeric(as.character(data$Position))
 data$Position<-as.factor(data$Position)
